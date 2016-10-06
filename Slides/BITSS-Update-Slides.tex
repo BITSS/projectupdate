@@ -32,18 +32,18 @@
 {}
 
 \author[Christensen] % (optional, use only with lots of authors)
-{Garret~Christensen\inst{1}}
+{Garret~Christensen, Kelsey Mulcahy, Katie Hoeberling}
 % - Give the names in the same order as the appear in the paper.
 % - Use the \inst{?} command only if the authors have different
 %   affiliation.
 
-\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
-{
-  \inst{1}%
-  UC Berkeley:\\
-  Berkeley Initiative for Transparency in the Social Sciences\\
-  Berkeley Institute for Data Science\\
-  }
+%\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+%{
+ % \inst{1}%
+ % UC Berkeley:\\
+ % Berkeley Initiative for Transparency in the Social Sciences\\
+ % Berkeley Institute for Data Science\\
+ % }
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
@@ -83,8 +83,7 @@ Slides available online at \url{http://www.github.com/BITSS/projectupdate}}
 % If you wish to uncover everything in a step-wise fashion, uncomment
 % the following command: 
 
-\beamerdefaultoverlayspecification{<+->}
-
+\beamerdefaultoverlayspecification{<.->}
 
 \begin{document}
 
@@ -130,11 +129,40 @@ Slides available online at \url{http://www.github.com/BITSS/projectupdate}}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{BITSS Activities}
+\begin{itemize}[<.->]
+\item Workshops \& Seminars
+\item Manual of Best Practices
+\item Journal of Economic Literature piece
+\item Textbook Proposal
+\item Data Sharing \& Citations Research 
+\item Grants, Awards, Meetings
+\end {itemize}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\section{Workshops}
+\begin{frame}{Workshops}
+\begin{itemize}
+\item UC Berkeley
+\item UC Riverside
+\item UC San Diego
+\item Western Economic Association
+\item IPA (Kenya)
+\item APHRC (Kenya)
+\item MCC/MCA (Zambia)
+\item World Bank
+\item ICPSR 2-day Course \href{http://www.github.com/bitss/icpsr2016}{\beamergotobutton{Link}} 
+\item Future:
+	\begin{itemize}
+	\item UC Merced
+	\item Institute for New Economic Thinking/YSI (Budapest)
+	\item World Bank, plus speaker series
+	\end{itemize}
+\end{itemize}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\subsection*{Example}
 
 \begin{frame}{Registration}
  Newer to social sciences, but:
@@ -169,18 +197,18 @@ Slides available online at \url{http://www.github.com/BITSS/projectupdate}}
      \end{frame}
 }
 
-\begin{frame}{Design-Based Publication}
-AKA Registered Reports, moves peer review before data gathering, results, and analysis.
+%\begin{frame}{Design-Based Publication}
+%AKA Registered Reports, moves peer review before data gathering, results, and analysis.
 
-\begin{enumerate}[<.->]
-\item Design a project
-\item Submit
-\item Reviewed based on importance of question and quality of design
-\item Get in-principle acceptance
-\item Follow through, and nulls get published
-\end{enumerate}
-\href{https://osf.io/8mpji/wiki/home/}{20 Journals, 5 more with Special Issues \beamergotobutton{Link}}
-\end{frame}
+%\begin{enumerate}[<.->]
+%\item Design a project
+%\item Submit
+%\item Reviewed based on importance of question and quality of design
+%\item Get in-principle acceptance
+%\item Follow through, and nulls get published
+%\end{enumerate}
+%\href{https://osf.io/8mpji/wiki/home/}{20 Journals, 5 more with Special Issues \beamergotobutton{Link}}
+%\end{frame}
 
 { % all template changes are local to this group.
     \setbeamertemplate{navigation symbols}{}
@@ -230,7 +258,6 @@ An Exact Fishy Test \href{https://macartan.shinyapps.io/fish/}{\beamerbutton{Lin
      \end{frame}
 }
 
-\subsection*{Version Control}
 \begin{frame}{Version Control}
 \begin{itemize}[<.->]
 \item
@@ -314,10 +341,8 @@ Possible in R and Stata.
      \end{frame}
 }
 
-\section{Conclusion}
 \begin{frame}{Conclusion}
 OK, I'm convinced. How do I implement this in my own research?
-
 \begin{itemize}[<.->]
 \item Read the manual I wrote.\href{https://github.com/garretchristensen/BestPracticesManual}{\beamergotobutton{Link}}
 \item Subscribe to the BITSS blog \& E-mail list \href{https://bitss.org/blog}{\beamergotobutton{Link}}
@@ -328,8 +353,99 @@ OK, I'm convinced. How do I implement this in my own research?
 \end{itemize}
 \end{frame}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Manual of Best Practices}
+\begin{frame}{Manual of Best Practices}
+\begin{itemize}
+\item Soup to nuts references for doing transparent/reproducible research
+\item On Github \href{http://www.github.com/garretchristensen/bestpracticesmanual}{\beamergotobutton{Link}}
+\item 20 unique visitors/week?
+\item Under review at \textit{Journal of Economic Methodology}
+\item Served as basis for chapter in \href{https://openknowledge.worldbank.org/bitstream/handle/10986/25030/9781464807794.pdf?sequence=2}{\textit{Impact Evaluation in Practice}, 2e} 
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{JEL Review}
+\begin{frame}{\textit{Journal of Economic Literature} Review}
+``Transparency, Reproducibility, and the Credibility of Economics Research''
+\begin{itemize}
+\item 90-100 pages, 34,000 words
+\item 20 pages of references
+\item Proposal, Outline, Review, \textbf{Final Edits}
+\item Also scheduled to be included in interdisciplinary (poli sci/soc) book \textit{Producing Knowledge} from Cambridge University Press.
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Textbook}
+\begin{frame}{\textit{Transparent and Reproducible Social Science Research}}
+Accepted, contracting with UC Press
+\begin{itemize}
+\item 60,000-70,000 words
+\item Additional/optional text for metrics/methods courses
+\item Main text for reproducibility course (few) 
+\item Designed to flow with MOOC \href{https://www.youtube.com/channel/UCQbo_mSWlTaKppIQViiVUZQ}{\beamergotobutton{Link}}
+\item Due in a year
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Outline}
+\begin{itemize}
+\item Intro
+\item Ethical Research
+\item The Problem: Publication Bias
+\item The Problem: Specification Searching
+\item Solutions: Using All Existing Evidence
+	\begin{itemize}
+	\item Registration
+	\item Meta-Analysis
+	\end{itemize}
+\item Solutions: Pre-Analysis Plans \textbf(Sample Chapter)
+\item Specification Searching Solutions: Sensitivity Analysis and Other Approaches
+\item Reporting Standards
+\item Replication
+\item Data Sharing
+\item Reproducible Workflow
+\item Conclusion
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%
+\section{Research: Data Sharing \& Citations}
+\begin{frame}{Research: Data Sharing \& Citations}
+\begin{itemize}
+\item There is strong evidence that papers that share their data get cited more often. However, it's all just associations; nothing causal.
+
+\item We plan to use strict changes in journal policy as an instrument for data availability to get causal evidence. 
+
+\item \textit{American Journal of Political Science} vs. \textit{American Political Science Review}
+
+\item \textit{American Economic Review} vs. \textit{Quarterly Journal of Economics}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Research: Data Sharing \& Citations}
+\begin{itemize}
+\item Allan Dafoe (Yale Poli Sci), Ted Miguel, Garret Christensensen
+\item David Birke (GSR)
+\item Terri Cruz, Ravina Pattni, Kevin Khu, Rachel Kim (URAP)
+\item Pre-Analysis Plan \href{https://osf.io/qxpr6/}{\beamergotobutton{Link}}
+\item Allan's Paper \href{https://osf.io/br4dy/}{\beamergotobutton{Link}}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Grants, Awards, Meetings}
+\begin{frame}{Grants, Awards Meetings}
+\begin{itemize}
+\item Stanford Computation+Journalism Symposium panel on Reproducible Journalism
+\item NIH Support for Summer Institute
+\item 21 SSMART Grants (x\$30,000) \href{https://osf.io/5x89z/}{\beamergotobutton{Link}}
+\item Leamer Rosenthal Prizes
+\end{itemize}
+\end{frame}
+
 \begin{frame}{Summer Institute}
-Three days of training in June at UC Berkeley, or two days of training in July at the University of Michigan.
+Three days of training in June at UC Berkeley, or two days of training in July at the University of Michigan. NIH funding for 5 years!
 \includegraphics[width=4in]{../Images/bitss-2014-cohort2.jpg}
 \end{frame}
 
